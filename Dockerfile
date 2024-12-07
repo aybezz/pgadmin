@@ -1,1 +1,5 @@
 FROM dpage/pgadmin4
+
+PGADMIN_DEFAULT_EMAIL=youremail@elasticias.com
+PGADMIN_DEFAULT_PASSWORD=vers_secure_password
+PGADMIN_CONFIG_WTF_CSRF_CHECK_DEFAULT=False
